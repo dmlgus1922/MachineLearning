@@ -10,3 +10,16 @@ for i in n_l[::-1]:  #n리스트를 뒤집어 새로 생성한 리스트를 순�
     if i == 0:  #위에서 입력한 값 중 0을 제거하지 않았으므로 0이 존재한다면 건너뛰기
         continue
     print(i, end = ' ')  #end를 공백으로 설정해줘서 한 줄로 출력되도록 함
+
+    
+n_l = []
+while len(n_l) < 100:
+    n = list(map(int, input().split()))
+    if 0 in n:
+        n_l.extend(n[:n.index(0)])
+        break
+    n_l.extend(n)
+n_l = n_l[:100]
+#매번 99인덱스까지 슬라이싱 하지 않고 while문을 나왔을 때 한번만 슬라이싱해도 된다. 0도 지워진 상태.
+for n in n_l[::-1]:
+    print(n, end = ' ')
