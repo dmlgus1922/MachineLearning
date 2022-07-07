@@ -7,20 +7,14 @@ def base2(n):
     if n == 1:
         b2.append(1)
         return
-    if n % 2 == 0:
-        b2.append(0)
-        return base2(n//2)
     else:
-        b2.append(1)
+        b2.append(n%2)
         return base2(n//2)
 
 def base8(n):
     if n <= 7:
         o8.append(n)
         return
-    if n % 8 == 0:
-        o8.append(0)
-        return base8(n//8)
     else:
         o8.append(n%8)
         return base8(n//8)
