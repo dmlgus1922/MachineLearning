@@ -1,0 +1,60 @@
+팀별 캐글 경진대회를 시작한다.
+
+팀 구성하기(팀장)
+팀 작명 규칙
+js_b_팀이름
+팀원 초대 merge Teams
+
+팀원
+자기 닉네임으로 팀이름 만들기
+
+pending merge requests
+
+데이터 다운로드
+데이터 탭 다운로드 all
+
+
+제출
+하루 10번
+
+프라이빗 정답: 공개하지 않은 정답
+
+퍼블릭 데이터는 전체 테스트 데이터의 50퍼에 대한 점수
+프라이빗은 대회 정료 후 오픈
+
+-회귀-
+
+데이터 - 
+결과값: price가 결과값
+피쳐: 
+ID- 번호
+ADDRESS- 주소	
+SUBURB	PRICE	BEDROOMS	BATHROOMS	GARAGE	LAND_AREA	FLOOR_AREA	BUILD_YEAR	CBD_DIST	NEAREST_STN	NEAREST_STN_DIST	DATE_SOLD	POSTCODE	LATITUDE	LONGITUDE	NEAREST_SCH	NEAREST_SCH_DIST	NEAREST_SCH_RANK
+
+카테고리 데이터 피쳐 당 클래스 개수
+BEDROOMS 10개
+BATHROOMS 6개
+GARAGE 23개
+NEAREST_STN 68개
+
+연속형 데이터
+LAND_AREA
+FLOOR_AREA
+BUILD_YEAR
+CBD_DIST(어디까지 거리)
+NEAREST_STN_DIST(가까운 역 거리)
+NEAREST_SCH_DIST(학교랑 거리)
+NEAREST_SCH_RANK(가까운 학교의 랭킹)
+
+애매한거
+DATE_SOLD
+NEAREST_SCH
+
+
+버릴거
+ID
+ADDRESS
+SUBURB
+POSTCODE
+LATITUDE
+LONGITUDE
