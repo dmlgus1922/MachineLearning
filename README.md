@@ -1,4 +1,4 @@
-# PythonWeb_2022.08
+# MachineLearning
 ## 머신러닝 강의
 
 ### 인공지능 웹서비스
